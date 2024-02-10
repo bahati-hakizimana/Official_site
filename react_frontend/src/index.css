@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@layer utilities{
+    .bg-navbar{
+        @apply bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900;
+
+    }
+    .nav1{
+        padding: 2px 2px;
+    }
+    .hero{
+        padding-top: 32px ;
+    }
+    .btn-primary{
+        @apply rounded-md border-4 border-purple-500
+        bg-purple-500  text-sm text-white transition-colors duration-300 hover:bg-purple-500/80;
+    }
+    .bg-simple{
+        @apply bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900;
+
+    }
+   .simple
+   {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+   }
+   .btn-black{
+    @apply bg-gradient-to-l from-violet-900 via-violet-800 to-violet-900;
+    padding: 5px 20px;
+    border-radius: 10rem;
+   }
+   .btn{
+    padding-top: 4rem;
+   }
+   .car{
+    padding: 4px;
+   }
+   .first{
+    padding-top: 2px;
+   }
+   .main{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+   }
+   .tb{
+    padding-top: 2px;
+    padding-bottom: 2px;
+   }
+   .blog{
+    padding-top: 8px;
+    padding-bottom: 8px;
+   }
+   .py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+   }
+   .footer{
+    padding: 4px;
+   }
+   .py-6{
+    padding-top: 6px;
+    padding-bottom: 6px;
+   }
+   .logo{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   }
+   .parrent{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+   .links{
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   }
+   .login
+   {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+   }
+}
